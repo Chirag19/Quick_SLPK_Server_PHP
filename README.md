@@ -7,28 +7,29 @@ Why this projects? Publishing I3S service to Portal for ArcGIS requires to feder
 
 How to use:
 
-    Unzip the project into an apache web accessible folder
-    
-    Place .SLPK into a folder (default: "./slpk") [You can create SLPK with ArcGIS pro and some other softwares]
+- Unzip the project into an apache web accessible folder
 
-    Configure the script (index.php / map.php):
-        slpk folder
+- Place .SLPK into a folder (default: "./slpk") [You can create SLPK with ArcGIS pro and some other softwares]
 
-    Open browser to "host:port/{webfolder}/index.php"
+- Configure the script (index.php / map.php):
+    slpk folder
 
-    Index page let you access your SLPK as I3S services
+- Open browser to "host:port/{webfolder}/index.php"
 
-    Also provide an intern viewer for test
+- Index page let you access your SLPK as I3S services
 
-    You can use your I3S services on arcgis online, portal for arcgis, arcgis javascript API, ... simply use ther service url: {host}:{port}/{webfolder}/server/{slpk name .slpk}/SceneServer
+- Also provide an intern viewer for test
 
-How to:
-    Configure Viewer page: map.php
+- You can use your I3S services on arcgis online, portal for arcgis, arcgis javascript API, ... simply use ther service url: {host}:{port}/{webfolder}/server/{slpk name .slpk}/SceneServer
+
+How to configure viewer:
+
+- Configure Viewer page: map.php
 
 Sources:
 
-    php 5.x
-    I3S Specifications: https://github.com/Esri/i3s-spec
-    Arcgis Javascript API >=4.6
+   - php 5.x
+   - I3S Specifications: https://github.com/Esri/i3s-spec
+   -Arcgis Javascript API >=4.6
 
 Autor: RIVIERE Romain Date: 12/02/2018 Licence: GNU GPLv3
